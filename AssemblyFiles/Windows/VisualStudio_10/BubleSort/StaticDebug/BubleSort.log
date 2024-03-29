@@ -1,0 +1,22 @@
+﻿Build started 3/7/2023 12:30:52 PM.
+     1>Project "C:\Users\lunat\documents\visual studio 2010\Projects\BubleSort\AssemblyFiles\Windows\VisualStudio_10\BubleSort.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "BubleSort\StaticDebug\BubleSort.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /ID:\Eco.Framework_20230121\Eco.Framework\Eco.Core1\SharedFiles /ID:\Eco.Framework_20230121\Eco.Framework\Eco.InterfaceBus1\SharedFiles /ID:\Eco.Framework_20230121\Eco.Framework\Eco.System1\SharedFiles /ID:\Eco.Framework_20230121\Eco.Framework\Eco.MemoryManager1\SharedFiles /ID:\Eco.Framework_20230121\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /ID:\Eco.Framework_20230121\Eco.Framework\Eco.List1\SharedFiles /IC:\Users\lunat\Desktop\001.InsideACOM\Lessons\Lesson02\Eco.CalculatorA\SharedFiles /IC:\Users\lunat\Desktop\001.InsideACOM\Lessons\Lesson03\Eco.CalculatorB\SharedFiles /IC:\Users\lunat\Desktop\001.InsideACOM\Lessons\Lesson06\Eco.CalculatorD\SharedFiles /IC:\Users\lunat\Desktop\001.InsideACOM\Lessons\Lesson07\Eco.CalculatorE\SharedFiles /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D ECO_WINDOWS /D ECO_WIN32 /D UGUID_UTILITY /D ECO_LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"BubleSort\StaticDebug\\" /Fd"BubleSort\StaticDebug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CBubleSort.c ..\..\..\SourceFiles\CBubleSortFactory.c
+         CBubleSortFactory.c
+         CBubleSort.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\lunat\documents\visual studio 2010\Projects\BubleSort\AssemblyFiles\Windows\VisualStudio_10\BubleSort\StaticDebug\680786EC2FB742F2A3C6C9D4B4ED74BE.lib) does not match the Library's OutputFile property value (C:\Users\lunat\documents\visual studio 2010\Projects\BubleSort\BuildFiles\Windows\x86\StaticDebug\680786EC2FB742F2A3C6C9D4B4ED74BE.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\BuildFiles\Windows\x86\StaticDebug\680786EC2FB742F2A3C6C9D4B4ED74BE.lib" /NOLOGO BubleSort\StaticDebug\CBubleSort.obj
+         BubleSort\StaticDebug\CBubleSortFactory.obj
+         BubleSort.vcxproj -> C:\Users\lunat\documents\visual studio 2010\Projects\BubleSort\AssemblyFiles\Windows\VisualStudio_10\BubleSort\StaticDebug\680786EC2FB742F2A3C6C9D4B4ED74BE.lib
+       FinalizeBuildStatus:
+         Deleting file "BubleSort\StaticDebug\BubleSort.unsuccessfulbuild".
+         Touching "BubleSort\StaticDebug\BubleSort.lastbuildstate".
+     1>Done Building Project "C:\Users\lunat\documents\visual studio 2010\Projects\BubleSort\AssemblyFiles\Windows\VisualStudio_10\BubleSort.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.88
